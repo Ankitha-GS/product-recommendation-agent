@@ -1,0 +1,34 @@
+[
+  {
+    "user_id": "user_1",
+    "name": "Priya Sharma",
+    "preferences_text": "I want to get into running and general fitness, prefer lightweight and breathable gear",
+    "budget": 5000,
+    "preferred_categories": ["Sports & Outdoors", "Electronics"],
+    "purchase_history": ["P022"]
+  },
+  {
+    "user_id": "user_2",
+    "name": "Ahmed Khan",
+    "preferences_text": "Looking for the latest tech gadgets, mainly audio devices and smartphones with good cameras",
+    "budget": 25000,
+    "preferred_categories": ["Electronics"],
+    "purchase_history": ["P005"]
+  },
+  {
+    "user_id": "user_3",
+    "name": "Sara Fernandes",
+    "preferences_text": "Simple budget-friendly skincare for sensitive skin, nothing too fancy",
+    "budget": 1500,
+    "preferred_categories": ["Beauty"],
+    "purchase_history": []
+  },
+  {
+    "user_id": "user_4",
+    "name": "Rahul Verma",
+    "preferences_text": "",
+    "budget": null,
+    "preferred_categories": [],
+    "purchase_history": []
+  }
+]
