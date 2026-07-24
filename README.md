@@ -1,7 +1,7 @@
 # Product Recommendation Agent
 
-A content-based product recommendation agent built for the Rooman AI Challenge
-(Category 3 — Customer & Growth).
+A content-based product recommendation agent
+
 
 > **One-sentence job:** My agent takes a user's stated preferences, budget, and
 > optional purchase history, and produces a ranked list of products from a
