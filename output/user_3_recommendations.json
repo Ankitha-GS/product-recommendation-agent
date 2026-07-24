@@ -1,0 +1,89 @@
+{
+  "user_id": "user_3",
+  "name": "Sara Fernandes",
+  "input_preferences": "Simple budget-friendly skincare for sensitive skin, nothing too fancy",
+  "budget": 1500,
+  "mode": "content_based",
+  "budget_relaxed": false,
+  "recommendations": [
+    {
+      "product_id": "P010",
+      "name": "HydraCloud Daily Moisturizer",
+      "category": "Beauty",
+      "price": 649,
+      "rating": 4.3,
+      "similarity_score": 0.7202,
+      "final_score": 0.7412,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "skincare",
+        "beauty",
+        "budget",
+        "sensitive skin"
+      ],
+      "rationale": "Recommended because it matches preference terms: skincare, beauty, budget, sensitive skin; falls in a preferred category (Beauty); fits the stated budget of \u20b91500; has a strong rating of 4.3/5."
+    },
+    {
+      "product_id": "P011",
+      "name": "PureMinerale SPF 50 Sunscreen",
+      "category": "Beauty",
+      "price": 549,
+      "rating": 4.6,
+      "similarity_score": 0.5477,
+      "final_score": 0.6035,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "skincare",
+        "beauty",
+        "budget",
+        "sensitive skin"
+      ],
+      "rationale": "Recommended because it matches preference terms: skincare, beauty, budget, sensitive skin; falls in a preferred category (Beauty); fits the stated budget of \u20b91500; has a strong rating of 4.6/5."
+    },
+    {
+      "product_id": "P009",
+      "name": "GlowBotanica Vitamin C Serum",
+      "category": "Beauty",
+      "price": 899,
+      "rating": 4.5,
+      "similarity_score": 0.4917,
+      "final_score": 0.5529,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "skincare",
+        "beauty",
+        "budget"
+      ],
+      "rationale": "Recommended because it matches preference terms: skincare, beauty, budget; falls in a preferred category (Beauty); fits the stated budget of \u20b91500; has a strong rating of 4.5/5."
+    },
+    {
+      "product_id": "P012",
+      "name": "SilkThread Herbal Shampoo",
+      "category": "Beauty",
+      "price": 399,
+      "rating": 4.0,
+      "similarity_score": 0.3491,
+      "final_score": 0.4168,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "beauty",
+        "budget"
+      ],
+      "rationale": "Recommended because it matches preference terms: beauty, budget; falls in a preferred category (Beauty); fits the stated budget of \u20b91500; has a strong rating of 4.0/5."
+    },
+    {
+      "product_id": "P023",
+      "name": "GlowMirror LED Vanity Mirror",
+      "category": "Beauty",
+      "price": 1499,
+      "rating": 4.2,
+      "similarity_score": 0.3175,
+      "final_score": 0.3959,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "beauty"
+      ],
+      "rationale": "Recommended because it matches preference terms: beauty; falls in a preferred category (Beauty); fits the stated budget of \u20b91500; has a strong rating of 4.2/5."
+    }
+  ]
+}

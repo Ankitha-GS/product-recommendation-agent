@@ -1,0 +1,82 @@
+{
+  "user_id": "user_2",
+  "name": "Ahmed Khan",
+  "input_preferences": "Looking for the latest tech gadgets, mainly audio devices and smartphones with good cameras",
+  "budget": 25000,
+  "mode": "content_based",
+  "budget_relaxed": false,
+  "recommendations": [
+    {
+      "product_id": "P008",
+      "name": "StreamCast 4K Media Dongle",
+      "category": "Electronics",
+      "price": 3299,
+      "rating": 4.0,
+      "similarity_score": 0.2625,
+      "final_score": 0.3431,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "tech",
+        "gadget"
+      ],
+      "rationale": "Recommended because it matches preference terms: tech, gadget; falls in a preferred category (Electronics); fits the stated budget of \u20b925000; has a strong rating of 4.0/5."
+    },
+    {
+      "product_id": "P007",
+      "name": "PixelSnap 64MP Smartphone",
+      "category": "Electronics",
+      "price": 21999,
+      "rating": 4.3,
+      "similarity_score": 0.2129,
+      "final_score": 0.31,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "smartphone",
+        "tech",
+        "camera",
+        "gadget"
+      ],
+      "rationale": "Recommended because it matches preference terms: smartphone, tech, camera, gadget; falls in a preferred category (Electronics); fits the stated budget of \u20b925000; has a strong rating of 4.3/5."
+    },
+    {
+      "product_id": "P002",
+      "name": "PulseFit Smart Band 2",
+      "category": "Electronics",
+      "price": 2299,
+      "rating": 4.2,
+      "similarity_score": 0.145,
+      "final_score": 0.2492,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [],
+      "rationale": "Recommended because it falls in a preferred category (Electronics); fits the stated budget of \u20b925000; has a strong rating of 4.2/5."
+    },
+    {
+      "product_id": "P024",
+      "name": "NightOwl Blue-Light Blocking Glasses",
+      "category": "Fashion",
+      "price": 699,
+      "rating": 4.0,
+      "similarity_score": 0.0525,
+      "final_score": 0.1647,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "tech accessory"
+      ],
+      "rationale": "Recommended because it matches preference terms: tech accessory; fits the stated budget of \u20b925000; has a strong rating of 4.0/5."
+    },
+    {
+      "product_id": "P015",
+      "name": "Data Science Bootcamp Notes",
+      "category": "Books",
+      "price": 799,
+      "rating": 4.1,
+      "similarity_score": 0.0467,
+      "final_score": 0.1627,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "tech"
+      ],
+      "rationale": "Recommended because it matches preference terms: tech; fits the stated budget of \u20b925000; has a strong rating of 4.1/5."
+    }
+  ]
+}

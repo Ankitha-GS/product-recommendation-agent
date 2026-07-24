@@ -1,0 +1,65 @@
+{
+  "user_id": "user_4",
+  "name": "Rahul Verma",
+  "input_preferences": "",
+  "budget": null,
+  "mode": "cold_start_popularity_fallback",
+  "budget_relaxed": false,
+  "recommendations": [
+    {
+      "product_id": "P005",
+      "name": "SonicWave Pro Wireless Earbuds",
+      "category": "Electronics",
+      "price": 4999,
+      "rating": 4.6,
+      "score": 0.96,
+      "method": "cold_start_popularity_fallback",
+      "matched_tags": [],
+      "rationale": "No stated preferences or purchase history were available for this user, so this is a popularity/rating fallback rather than a personalised match. 'SonicWave Pro Wireless Earbuds' is one of the catalogue's top performers (rating 4.6/5, popularity index 1200)."
+    },
+    {
+      "product_id": "P007",
+      "name": "PixelSnap 64MP Smartphone",
+      "category": "Electronics",
+      "price": 21999,
+      "rating": 4.3,
+      "score": 0.8383,
+      "method": "cold_start_popularity_fallback",
+      "matched_tags": [],
+      "rationale": "No stated preferences or purchase history were available for this user, so this is a popularity/rating fallback rather than a personalised match. 'PixelSnap 64MP Smartphone' is one of the catalogue's top performers (rating 4.3/5, popularity index 980)."
+    },
+    {
+      "product_id": "P022",
+      "name": "TrekReady Insulated Water Bottle",
+      "category": "Sports & Outdoors",
+      "price": 549,
+      "rating": 4.5,
+      "score": 0.825,
+      "method": "cold_start_popularity_fallback",
+      "matched_tags": [],
+      "rationale": "No stated preferences or purchase history were available for this user, so this is a popularity/rating fallback rather than a personalised match. 'TrekReady Insulated Water Bottle' is one of the catalogue's top performers (rating 4.5/5, popularity index 900)."
+    },
+    {
+      "product_id": "P002",
+      "name": "PulseFit Smart Band 2",
+      "category": "Electronics",
+      "price": 2299,
+      "rating": 4.2,
+      "score": 0.8158,
+      "method": "cold_start_popularity_fallback",
+      "matched_tags": [],
+      "rationale": "No stated preferences or purchase history were available for this user, so this is a popularity/rating fallback rather than a personalised match. 'PulseFit Smart Band 2' is one of the catalogue's top performers (rating 4.2/5, popularity index 950)."
+    },
+    {
+      "product_id": "P009",
+      "name": "GlowBotanica Vitamin C Serum",
+      "category": "Beauty",
+      "price": 899,
+      "rating": 4.5,
+      "score": 0.8125,
+      "method": "cold_start_popularity_fallback",
+      "matched_tags": [],
+      "rationale": "No stated preferences or purchase history were available for this user, so this is a popularity/rating fallback rather than a personalised match. 'GlowBotanica Vitamin C Serum' is one of the catalogue's top performers (rating 4.5/5, popularity index 870)."
+    }
+  ]
+}

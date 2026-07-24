@@ -1,0 +1,89 @@
+{
+  "user_id": "user_1",
+  "name": "Priya Sharma",
+  "input_preferences": "I want to get into running and general fitness, prefer lightweight and breathable gear",
+  "budget": 5000,
+  "mode": "content_based",
+  "budget_relaxed": false,
+  "recommendations": [
+    {
+      "product_id": "P003",
+      "name": "TrailBlaze Hydration Backpack",
+      "category": "Sports & Outdoors",
+      "price": 1899,
+      "rating": 4.3,
+      "similarity_score": 0.621,
+      "final_score": 0.6569,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "running",
+        "hiking",
+        "hydration",
+        "outdoor",
+        "fitness"
+      ],
+      "rationale": "Recommended because it matches preference terms: running, hiking, hydration, outdoor; falls in a preferred category (Sports & Outdoors); fits the stated budget of \u20b95000; has a strong rating of 4.3/5."
+    },
+    {
+      "product_id": "P001",
+      "name": "AeroRun Mesh Running Shoes",
+      "category": "Sports & Outdoors",
+      "price": 3499,
+      "rating": 4.5,
+      "similarity_score": 0.5648,
+      "final_score": 0.615,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "running",
+        "fitness",
+        "breathable",
+        "lightweight"
+      ],
+      "rationale": "Recommended because it matches preference terms: running, fitness, breathable, lightweight; falls in a preferred category (Sports & Outdoors); fits the stated budget of \u20b95000; has a strong rating of 4.5/5."
+    },
+    {
+      "product_id": "P004",
+      "name": "CoreStrength Resistance Band Set",
+      "category": "Sports & Outdoors",
+      "price": 799,
+      "rating": 4.1,
+      "similarity_score": 0.4166,
+      "final_score": 0.4771,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "fitness",
+        "budget"
+      ],
+      "rationale": "Recommended because it matches preference terms: fitness, budget; falls in a preferred category (Sports & Outdoors); fits the stated budget of \u20b95000; has a strong rating of 4.1/5."
+    },
+    {
+      "product_id": "P002",
+      "name": "PulseFit Smart Band 2",
+      "category": "Electronics",
+      "price": 2299,
+      "rating": 4.2,
+      "similarity_score": 0.1723,
+      "final_score": 0.2724,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "fitness tracker",
+        "budget"
+      ],
+      "rationale": "Recommended because it matches preference terms: fitness tracker, budget; falls in a preferred category (Electronics); fits the stated budget of \u20b95000; has a strong rating of 4.2/5."
+    },
+    {
+      "product_id": "P008",
+      "name": "StreamCast 4K Media Dongle",
+      "category": "Electronics",
+      "price": 3299,
+      "rating": 4.0,
+      "similarity_score": 0.1337,
+      "final_score": 0.2337,
+      "method": "content_based_tfidf_cosine",
+      "matched_tags": [
+        "budget"
+      ],
+      "rationale": "Recommended because it matches preference terms: budget; falls in a preferred category (Electronics); fits the stated budget of \u20b95000; has a strong rating of 4.0/5."
+    }
+  ]
+}
