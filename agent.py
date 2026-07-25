@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
 Product Recommendation Agent
------------------------------
-Takes a user profile (stated preferences + optional purchase history + budget)
-and a product catalogue, and returns a ranked, explained list of recommendations.
+
+Takes a user profile and a product catalogue, and returns a ranked, explained list of recommendations.
 
 Approach (content-based filtering):
   1. Build a TF-IDF vector for every product from its category + tags + description.
